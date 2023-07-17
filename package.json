@@ -1,0 +1,20 @@
+{
+  "name": "snap",
+  "version": "1.0.0",
+  "description": "projeto snap",
+  "main": "all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass css/style.scss:css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasAlmeida-jpg/snap.git"
+  },
+  "author": "lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasAlmeida-jpg/snap/issues"
+  },
+  "homepage": "https://github.com/LucasAlmeida-jpg/snap#readme"
+}

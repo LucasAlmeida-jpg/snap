@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FFFC00;
+  padding-bottom: 120px;
+}
+header .title_header {
+  font-size: 60px;
+  line-height: 1.1;
+  font-weight: 400;
+  margin-top: 12px;
+}
+header .text_header {
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+.sign_up {
+  background-color: #000000;
+  color: white;
+  font-weight: 500;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
