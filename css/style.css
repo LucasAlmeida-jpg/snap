@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -16,9 +17,93 @@ header .title_header {
   font-weight: 400;
   margin-top: 12px;
 }
+header .peopleHeader {
+  width: 100%;
+  object-fit: cover;
+  height: 500px !important;
+  border-radius: 20px;
+}
 header .text_header {
   font-size: 18px;
   padding-top: 12px;
+}
+header .navbar-nav .nav-item {
+  font-weight: bold;
+}
+header .navbar-nav .nav-item .nav-link {
+  margin-right: 15px;
+}
+
+.how_does_it_work {
+  margin: 80px 0px;
+}
+.how_does_it_work h1 {
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+.how_does_it_work .card {
+  background-color: #FFFC00;
+  border: none;
+  padding: 15px;
+  min-height: 438px;
+  border-radius: 30px !important;
+}
+.how_does_it_work .card .card-title {
+  margin-top: 23px;
+  font-weight: 645;
+  font-size: 36px;
+}
+.how_does_it_work .card p {
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: left;
+}
+.how_does_it_work .img_woman {
+  position: absolute;
+  bottom: 0;
+  width: 161px;
+  right: 27px;
+}
+.how_does_it_work .img_cat {
+  position: absolute;
+  bottom: 20px;
+  width: 161px;
+  right: 23px;
+}
+.how_does_it_work .img_dope {
+  position: absolute;
+  bottom: 10px;
+  width: 161px;
+  right: 27px;
+}
+.how_does_it_work .img_emogi {
+  position: absolute;
+  bottom: 14px;
+  width: 161px;
+  right: 24px;
+}
+.how_does_it_work .img_emogi .hand {
+  width: 90px;
+  margin-top: 25px;
+}
+.how_does_it_work .img_emogi .ball {
+  margin-top: 82px;
+  width: 90px;
+}
+.how_does_it_work .card-participate {
+  background-color: #FFFC00;
+  border: none;
+  padding: 15px;
+  min-width: 638px;
+  min-height: 130px;
+  border-radius: 30px !important;
+  display: flex;
+  align-items: center;
+}
+.how_does_it_work .card-participate p {
+  margin-left: 25px;
+  font-size: 20px;
+  text-align: left;
 }
 
 .sign_up {
@@ -28,6 +113,41 @@ header .text_header {
   padding: 8px 15px;
   border: none;
   border-radius: 40px;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Aplica as animações aos elementos desejados */
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Oculta o conteúdo do main e das sections por padrão */
+.how_does_it_work,
+.how_does_it_work section {
+  opacity: 0;
+}
+
+/* Faz com que o conteúdo do main e das sections apareça quando o usuário rolar a página */
+.fade-in-scroll {
+  animation: fadeIn 2s ease-out;
+  animation-fill-mode: forwards;
 }
 
 /*# sourceMappingURL=style.css.map */

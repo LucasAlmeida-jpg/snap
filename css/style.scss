@@ -9,20 +9,126 @@ body {
 header {
   background-color: #FFFC00;
   padding-bottom: 120px;
+
   .title_header {
     font-size: 60px;
     line-height: 1.1;
     font-weight: 400;
     margin-top: 12px;
+
   }
+
+  .peopleHeader {
+    width: 100%;
+    object-fit: cover;
+    height: 500px !important;
+    border-radius: 20px;
+  }
+
   .text_header {
     font-size: 18px;
     padding-top: 12px;
   }
+
+  .navbar-nav {
+    .nav-item {
+      font-weight: bold;
+
+      .nav-link {
+        margin-right: 15px;
+      }
+    }
+  }
 }
 
-.sign_up{
-  background-color:  #000000;
+.how_does_it_work {
+  margin: 80px 0px;
+
+  h1 {
+    font-weight: 600;
+    margin-bottom: 80px;
+  }
+
+  .card {
+    background-color: #FFFC00;
+    border: none;
+    padding: 15px;
+    min-height: 438px;
+    border-radius: 30px !important;
+
+    .card-title {
+      margin-top: 23px;
+      font-weight: 645;
+      font-size: 36px;
+    }
+
+    p {
+      margin-top: 25px;
+      font-size: 20px;
+      text-align: left;
+
+    }
+  }
+
+  .img_woman {
+    position: absolute;
+    bottom: 0;
+    width: 161px;
+    right: 27px;
+  }
+
+  .img_cat {
+    position: absolute;
+    bottom: 20px;
+    width: 161px;
+    right: 23px;
+  }
+
+  .img_dope {
+    position: absolute;
+    bottom: 10px;
+    width: 161px;
+    right: 27px;
+  }
+
+  .img_emogi {
+    position: absolute;
+    bottom: 14px;
+    width: 161px;
+    right: 24px;
+
+    .hand {
+      width: 90px;
+      margin-top: 25px;
+    }
+
+    .ball {
+      margin-top: 82px;
+      width: 90px;
+    }
+  }
+
+  .card-participate {
+    background-color: #FFFC00;
+    border: none;
+    padding: 15px;
+    min-width: 638px;
+    min-height: 130px;
+    border-radius: 30px !important;
+    display: flex;
+    align-items: center;
+
+    p {
+      margin-left: 25px;
+      font-size: 20px;
+      text-align: left;
+
+    }
+  }
+}
+
+.sign_up {
+  background-color: #000000;
   color: white;
   font-weight: 500;
   padding: 8px 15px;
@@ -30,20 +136,42 @@ header {
   border-radius: 40px;
 }
 
-// @keyframes slideInFromRight {
-//   0% {
-//     transform: translateX(100%);
-//   }
-//   100% {
-//     transform: translateX(0);
-//   }
-// }
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
 
-// .article-animation {
-//   animation: slideInFromRight 0.50s ease-in-out;
-// }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Aplica as animações aos elementos desejados */
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
 
 
-// .article-animation.delay-3 {
-//   animation-delay: 0.5s;
-// }
+/* Oculta o conteúdo do main e das sections por padrão */
+.how_does_it_work,
+.how_does_it_work section {
+  opacity: 0;
+}
+
+/* Faz com que o conteúdo do main e das sections apareça quando o usuário rolar a página */
+.fade-in-scroll {
+  animation: fadeIn 2s ease-out;
+  animation-fill-mode: forwards;
+}

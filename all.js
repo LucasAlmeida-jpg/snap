@@ -1,0 +1,13 @@
+window.addEventListener('scroll', function() {
+  const main = document.querySelector('.how_does_it_work');
+  const sections = document.querySelectorAll('.how_does_it_work section');
+  const position = main.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+
+  const shouldAnimate = position < windowHeight * 0.9;
+
+  main.classList.toggle('fade-in-scroll', shouldAnimate);
+  sections.forEach(section => {
+    section.classList.toggle('fade-in-scroll', shouldAnimate);
+  });
+});
