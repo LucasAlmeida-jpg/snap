@@ -127,6 +127,11 @@ header {
   }
 }
 
+.guests {
+  background-color: #FFFC00;
+  padding: 120px 0px 120px 0px;
+}
+
 .sign_up {
   background-color: #000000;
   color: white;
@@ -158,19 +163,15 @@ header {
   }
 }
 
-/* Aplica as animações aos elementos desejados */
 .fade-in {
   animation: fadeIn 1s ease-out;
 }
 
-
-/* Oculta o conteúdo do main e das sections por padrão */
 .how_does_it_work,
 .how_does_it_work section {
   opacity: 0;
 }
 
-/* Faz com que o conteúdo do main e das sections apareça quando o usuário rolar a página */
 .fade-in-scroll {
   animation: fadeIn 2s ease-out;
   animation-fill-mode: forwards;
