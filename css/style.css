@@ -151,4 +151,30 @@ header .navbar-nav .nav-item .nav-link {
   animation-fill-mode: forwards;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  body .sign_up {
+    margin: 17px 0px;
+  }
+  body .card {
+    margin: 10px 0px;
+  }
+  body .card-participate {
+    min-width: 100% !important;
+    margin: 10px 0px;
+  }
+  body br {
+    display: none;
+  }
+  body .guests img {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .container {
+    padding: 10px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

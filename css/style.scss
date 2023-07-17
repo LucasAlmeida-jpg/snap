@@ -176,3 +176,34 @@ header {
   animation: fadeIn 2s ease-out;
   animation-fill-mode: forwards;
 }
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+    .sign_up{
+      margin: 17px 0px;
+    }
+    .card{
+      margin: 10px 0px;
+    }
+    .card-participate{
+      min-width: 100% !important;
+      margin: 10px 0px;
+      
+    }
+    br{
+      display: none;
+    }
+    .guests{
+      img{
+        width: 100%;
+        margin: 10px 0px;
+      }
+    }
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
