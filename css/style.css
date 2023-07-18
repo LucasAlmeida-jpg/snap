@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -5,6 +6,45 @@ body {
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+.accordion__button {
+  display: block;
+  padding: 25px 25px 25px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #FFFC00;
+  color: black;
+  text-align: left;
+  border-radius: 14px;
+  font-weight: 500;
+}
+.accordion__button::after {
+  content: "▾";
+  float: right;
+  transform: scale(1.5);
+}
+.accordion__button--active {
+  background: #FFFC00;
+}
+
+.accordion__content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s;
+  background-color: #FFFC00;
+  border-radius: 14px;
+  padding: 15px 20px;
+  color: black;
+  margin: -35px 0 35px;
+  font-weight: 500;
+}
+
+.questionnaire h1 {
+  color: black;
+  font-weight: 500;
+  font-size: 35px;
 }
 
 header {
@@ -109,6 +149,16 @@ header .navbar-nav .nav-item .nav-link {
 .guests {
   background-color: #FFFC00;
   padding: 80px 0px 120px 0px;
+}
+
+footer {
+  background-color: #FFFC00;
+  padding: 60px 0px;
+}
+footer ul li a {
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
 }
 
 .sign_up {
