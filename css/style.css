@@ -161,6 +161,25 @@ header .navbar-nav li:hover:after {
   background-color: #FFFC00;
   padding: 80px 0px 120px 0px;
 }
+.guests img {
+  border-radius: 18px;
+  opacity: 0.9;
+  filter: brightness(70%);
+}
+.guests .info-tutor {
+  position: absolute;
+  margin-top: -92px;
+}
+.guests .info-tutor p {
+  color: white;
+  margin-left: 16px;
+  font-size: 14.3px;
+  font-weight: 200;
+}
+.guests .info-tutor h3 {
+  color: white;
+  margin-left: 16px;
+}
 
 footer {
   background-color: #FFFC00;
@@ -217,7 +236,8 @@ footer ul li a {
   body {
     font-size: 14px;
   }
-  body .mt-4, body .adjust-mobile {
+  body .mt-4,
+  body .adjust-mobile {
     margin: 0 !important;
   }
   body .navbar-toggler {
