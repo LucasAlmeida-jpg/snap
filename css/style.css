@@ -217,15 +217,35 @@ footer ul li a {
   body {
     font-size: 14px;
   }
+  body .mt-4, body .adjust-mobile {
+    margin: 0 !important;
+  }
+  body .navbar-toggler {
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  body .py-5 {
+    padding: 0 !important;
+  }
   body .sign_up {
-    margin: 17px 0px;
+    margin: 0px 0px 21px 0px;
   }
   body .card {
     margin: 10px 0px;
   }
-  body .card-participate {
+  body .how_does_it_work h1 {
+    margin: 0px !important;
+  }
+  body .how_does_it_work .card-participate {
     min-width: 100% !important;
     margin: 10px 0px;
+    background-color: #FFFC00;
+    min-height: 85px !important;
+    border-radius: 13px !important;
+  }
+  body .how_does_it_work .card-participate p {
+    font-size: 14px !important;
   }
   body br {
     display: none;
@@ -235,7 +255,7 @@ footer ul li a {
     margin: 10px 0px;
   }
   .container {
-    padding: 10px;
+    padding: 20px;
   }
 }
 
