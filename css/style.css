@@ -118,8 +118,14 @@ header .navbar-nav li:hover:after {
 .how_does_it_work .img_woman {
   position: absolute;
   bottom: 0;
-  width: 161px;
-  right: 27px;
+  width: 130px;
+  right: 67px;
+}
+.how_does_it_work .img_hand {
+  position: absolute;
+  bottom: 40px;
+  width: 71px;
+  right: 177px;
 }
 .how_does_it_work .img_cat {
   position: absolute;
@@ -127,25 +133,23 @@ header .navbar-nav li:hover:after {
   width: 161px;
   right: 23px;
 }
+.how_does_it_work .img_smile {
+  position: absolute;
+  bottom: 60px;
+  width: 81px;
+  left: 23px;
+}
 .how_does_it_work .img_dope {
   position: absolute;
   bottom: 10px;
   width: 161px;
-  right: 27px;
+  left: 27px;
 }
-.how_does_it_work .img_emogi {
+.how_does_it_work .polvo {
   position: absolute;
-  bottom: 14px;
   width: 161px;
-  right: 24px;
-}
-.how_does_it_work .img_emogi .hand {
-  width: 90px;
-  margin-top: 25px;
-}
-.how_does_it_work .img_emogi .ball {
-  margin-top: 82px;
-  width: 90px;
+  left: 40px;
+  bottom: -10px;
 }
 .how_does_it_work .faq_title {
   margin-top: 75px;
