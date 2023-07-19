@@ -11,7 +11,6 @@ body {
 .accordion__button {
   display: block;
   padding: 25px 25px 25px 30px;
-  max-width: 98% !important;
   border: none;
   outline: none;
   cursor: pointer;
@@ -32,12 +31,11 @@ body {
 
 .accordion__content {
   overflow: hidden;
-  max-width: 98% !important;
   max-height: 0;
   transition: max-height 0.2s;
   background-color: black;
   border-radius: 14px;
-  padding: 15px 20px;
+  padding: 15px;
   color: white;
   margin: -45px 0 25px;
   font-weight: 500;
@@ -66,6 +64,7 @@ header .peopleHeader {
   position: absolute;
   right: 0;
   filter: contrast(120%);
+  bottom: 0px;
 }
 header .text_header {
   font-size: 18px;
@@ -75,7 +74,8 @@ header .navbar-nav .nav-item {
   font-weight: bold;
 }
 header .navbar-nav .nav-item .nav-link {
-  margin-right: 15px;
+  margin-right: 6px;
+  font-size: 14px;
 }
 header .navbar-nav li:after {
   display: block;
@@ -147,6 +147,9 @@ header .navbar-nav li:hover:after {
   margin-top: 82px;
   width: 90px;
 }
+.how_does_it_work .faq_title {
+  margin-top: 75px;
+}
 .how_does_it_work .card-participate {
   background-color: #FFFC00;
   border: none;
@@ -210,6 +213,7 @@ footer ul li a:hover {
   padding: 8px 15px;
   border: none;
   border-radius: 40px;
+  min-width: 187px;
 }
 
 @keyframes slideInRight {
@@ -247,6 +251,17 @@ footer ul li a:hover {
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px;
+    overflow-x: hidden;
+  }
+  body hr {
+    margin: 1.3rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 0.25;
+  }
+  body .faq_title {
+    margin-top: 20px !important;
   }
   body .mt-4,
   body .adjust-mobile {
@@ -278,8 +293,14 @@ footer ul li a:hover {
   body .card {
     margin: 10px 0px;
   }
+  body .how_does_it_work {
+    margin: 20px 0px;
+  }
   body .how_does_it_work h1 {
     margin: 0px !important;
+  }
+  body .how_does_it_work h4 {
+    margin-bottom: 19px;
   }
   body .how_does_it_work .card-participate {
     min-width: 100% !important;
@@ -296,22 +317,32 @@ footer ul li a:hover {
     padding-bottom: 25px;
   }
   body header .peopleHeader {
-    width: 106%;
+    width: 100%;
     object-fit: cover;
     height: auto !important;
     border-radius: 20px;
     position: relative;
-    right: 0px !important;
+    right: -13px !important;
+    margin-bottom: -27px !important;
   }
   body br {
     display: none;
+  }
+  body .guests {
+    padding: 23px 0px 23px 0px;
   }
   body .guests img {
     width: 100%;
     margin: 10px 0px;
   }
-  .container {
-    padding: 20px;
+  body footer {
+    text-align: center;
+  }
+  body footer ul li a {
+    line-height: 44px;
+  }
+  body footer .snapSchool {
+    margin: -20px -11px 13px;
   }
 }
 

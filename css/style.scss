@@ -10,7 +10,6 @@ body {
 .accordion__button {
   display: block;
   padding: 25px 25px 25px 30px;
-  max-width: 98% !important;
   border: none;
   outline: none;
   cursor: pointer;
@@ -33,13 +32,11 @@ body {
 
 .accordion__content {
   overflow: hidden;
-  max-width: 98% !important;
-
   max-height: 0;
   transition: max-height 0.2s;
   background-color: black;
   border-radius: 14px;
-  padding: 15px 20px;
+  padding: 15px;
   color: white;
   margin: -45px 0 25px;
   font-weight: 500;
@@ -71,6 +68,7 @@ header {
     position: absolute;
     right: 0;
     filter: contrast(120%);
+    bottom: 0px;
   }
 
   .text_header {
@@ -83,7 +81,8 @@ header {
       font-weight: bold;
 
       .nav-link {
-        margin-right: 15px;
+        margin-right: 6px;
+        font-size: 14px;
       }
     }
 
@@ -172,6 +171,10 @@ header {
     }
   }
 
+  .faq_title{
+    margin-top: 75px;
+  }
+
   .card-participate {
     background-color: #FFFC00;
     border: none;
@@ -248,7 +251,9 @@ footer {
   padding: 8px 15px;
   border: none;
   border-radius: 40px;
+  min-width: 187px
 }
+
 
 @keyframes slideInRight {
   from {
@@ -289,7 +294,19 @@ footer {
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px;
+    overflow-x: hidden;
 
+    hr {
+      margin: 1.3rem 0;
+      color: inherit;
+      border: 0;
+      border-top: 1px solid;
+      opacity: 0.25;
+    }
+
+    .faq_title{
+      margin-top: 20px !important;
+    }
     .mt-4,
     .adjust-mobile {
       margin: 0 !important;
@@ -329,8 +346,15 @@ footer {
     }
 
     .how_does_it_work {
+
+      margin: 20px 0px;
+
       h1 {
         margin: 0px !important;
+      }
+
+      h4 {
+        margin-bottom: 19px;
       }
 
       .card-participate {
@@ -351,12 +375,13 @@ footer {
       padding-bottom: 25px;
 
       .peopleHeader {
-        width: 106%;
+        width: 100%;
         object-fit: cover;
         height: auto !important;
         border-radius: 20px;
         position: relative;
-        right: 0px !important;
+        right: -13px !important;
+        margin-bottom: -27px  !important;
       }
     }
 
@@ -365,14 +390,28 @@ footer {
     }
 
     .guests {
+      padding: 23px 0px 23px 0px;
+
       img {
         width: 100%;
         margin: 10px 0px;
       }
     }
-  }
 
-  .container {
-    padding: 20px;
+    footer {
+      text-align: center;
+
+      ul {
+        li {
+          a {
+            line-height: 44px;
+          }
+        }
+      }
+
+      .snapSchool {
+        margin: -20px -11px 13px;
+      }
+    }
   }
 }
