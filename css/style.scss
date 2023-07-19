@@ -299,7 +299,21 @@ footer {
       text-decoration: none;
       border-radius: 50%;
       padding: 10px;
+      position: absolute;
+      right: 10px;
+      top: 40px;
 
+    }
+
+    .navbar>.container {
+      display: block;
+      text-align: center;
+      background-position: center;
+
+      .ms-4 {
+        margin-left: 0px !important;
+        margin-top: 15px;
+      }
     }
 
     .py-5 {

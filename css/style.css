@@ -256,6 +256,18 @@ footer ul li a:hover {
     text-decoration: none;
     border-radius: 50%;
     padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+  }
+  body .navbar > .container {
+    display: block;
+    text-align: center;
+    background-position: center;
+  }
+  body .navbar > .container .ms-4 {
+    margin-left: 0px !important;
+    margin-top: 15px;
   }
   body .py-5 {
     padding: 0 !important;
