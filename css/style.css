@@ -309,9 +309,8 @@ footer ul li a:hover {
     padding: 20px;
   }
   body .btn_header_sign_up .sign_up {
-    margin: 0px 0px 10px;
-    font-size: 13px;
-    min-width: 121px;
+    font-size: 11px;
+    min-width: 100px;
   }
   body .btn-yellow {
     text-align: center !important;

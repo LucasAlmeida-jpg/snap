@@ -355,7 +355,7 @@ footer {
 
     .sign_up {
       margin: 0px 0px 10px;
-  }
+    }
 
     .sign_up_yellow {
       margin: 10px 0px;
@@ -364,10 +364,10 @@ footer {
     .btn_header_sign_up {
       text-align: center !important;
       padding: 20px;
-      .sign_up{
-        margin: 0px 0px 10px;
-      font-size: 13px;
-      min-width: 121px;
+
+      .sign_up {
+        font-size: 11px;
+        min-width: 100px;
       }
     }
 
