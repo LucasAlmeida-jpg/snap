@@ -216,6 +216,17 @@ footer ul li a:hover {
   min-width: 187px;
 }
 
+.sign_up_yellow {
+  background-color: #FFFC00;
+  color: black;
+  font-weight: 500;
+  padding: 13px 19px;
+  border: none;
+  border-radius: 40px;
+  min-width: 187px;
+  margin: 0px 10px 0px 0px;
+}
+
 @keyframes slideInRight {
   from {
     opacity: 0;
@@ -288,7 +299,22 @@ footer ul li a:hover {
     padding: 0 !important;
   }
   body .sign_up {
-    margin: 0px 0px 21px 0px;
+    margin: 0px 0px 10px;
+  }
+  body .sign_up_yellow {
+    margin: 10px 0px;
+  }
+  body .btn_header_sign_up {
+    text-align: center !important;
+    padding: 20px;
+  }
+  body .btn_header_sign_up .sign_up {
+    margin: 0px 0px 10px;
+    font-size: 13px;
+    min-width: 121px;
+  }
+  body .btn-yellow {
+    text-align: center !important;
   }
   body .card {
     margin: 10px 0px;
