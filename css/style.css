@@ -8,6 +8,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.modal .btn-close-white {
+  margin-right: 15px !important;
+  opacity: 1;
+}
 .modal .cancel {
   position: absolute;
   margin-top: -233px;
@@ -17,10 +21,6 @@ body {
 .modal .ff-submit {
   background-color: #FFFC00 !important;
   color: black !important;
-}
-.modal .btn-close-white {
-  margin-left: -15px;
-  opacity: 1;
 }
 .modal .modal-body,
 .modal .modal-header,

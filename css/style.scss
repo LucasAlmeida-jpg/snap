@@ -9,6 +9,11 @@ body {
 
 // Estilizacao do Forms
 .modal {
+  .btn-close-white {
+    margin-right: 15px !important;
+    opacity: 1;
+  }
+  
   .cancel {
     position: absolute;
     margin-top: -233px;
@@ -20,12 +25,7 @@ body {
     background-color: #FFFC00 !important;
     color: black !important;
   }
-
-  .btn-close-white {
-    margin-left: -15px;
-    opacity: 1;
-  }
-
+  
   .modal-body,
   .modal-header,
   .modal-footer {
