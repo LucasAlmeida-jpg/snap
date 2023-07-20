@@ -13,7 +13,7 @@ body {
     margin-right: 15px !important;
     opacity: 1;
   }
-  
+
   .cancel {
     position: absolute;
     margin-top: -233px;
@@ -25,7 +25,7 @@ body {
     background-color: #FFFC00 !important;
     color: black !important;
   }
-  
+
   .modal-body,
   .modal-header,
   .modal-footer {
@@ -40,7 +40,8 @@ body {
   }
 }
 
-#ff-compose, #ff-compose2 {
+#ff-compose,
+#ff-compose2 {
   .ff-form {
     color: white;
     background-color: #1B1B1B;
@@ -276,17 +277,21 @@ header {
     border: none;
     padding: 15px 34px;
     min-width: 649px;
-    min-height: 130px;
-    border-radius: 30px !important;
+    min-height: 113px;
+    border-radius: 24px !important;
     display: flex;
     align-items: center;
 
-
+    
     p {
       margin-left: 25px;
       font-size: 20px;
       text-align: left;
     }
+  }
+  .university_title,
+  .highschool_title {
+    font-size: 25px !important;
   }
 }
 

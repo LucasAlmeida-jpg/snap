@@ -40,20 +40,25 @@ body {
   color: white !important;
 }
 
-#ff-compose .ff-form, #ff-compose2 .ff-form {
+#ff-compose .ff-form,
+#ff-compose2 .ff-form {
   color: white;
   background-color: #1B1B1B;
 }
-#ff-compose .ff-form p, #ff-compose2 .ff-form p {
+#ff-compose .ff-form p,
+#ff-compose2 .ff-form p {
   color: white !important;
 }
-#ff-compose .ff-form label, #ff-compose2 .ff-form label {
+#ff-compose .ff-form label,
+#ff-compose2 .ff-form label {
   color: white !important;
 }
-#ff-compose .ff-form .ff-secfields span, #ff-compose2 .ff-form .ff-secfields span {
+#ff-compose .ff-form .ff-secfields span,
+#ff-compose2 .ff-form .ff-secfields span {
   color: white !important;
 }
-#ff-compose .ff-form .ff-button-bar img, #ff-compose2 .ff-form .ff-button-bar img {
+#ff-compose .ff-form .ff-button-bar img,
+#ff-compose2 .ff-form .ff-button-bar img {
   display: none !important;
 }
 
@@ -230,8 +235,8 @@ header .navbar-nav li:hover:after {
   border: none;
   padding: 15px 34px;
   min-width: 649px;
-  min-height: 130px;
-  border-radius: 30px !important;
+  min-height: 113px;
+  border-radius: 24px !important;
   display: flex;
   align-items: center;
 }
@@ -239,6 +244,10 @@ header .navbar-nav li:hover:after {
   margin-left: 25px;
   font-size: 20px;
   text-align: left;
+}
+.how_does_it_work .university_title,
+.how_does_it_work .highschool_title {
+  font-size: 25px !important;
 }
 
 .guests {
