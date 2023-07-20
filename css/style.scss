@@ -13,7 +13,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  background: black;
+  background: #1B1B1B;
   color: white;
   text-align: left;
   border-radius: 14px;
@@ -26,7 +26,7 @@ body {
   }
 
   &--active {
-    background: black;
+    background: #1B1B1B;
   }
 }
 
@@ -34,7 +34,7 @@ body {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s;
-  background-color: black;
+  background-color: #1B1B1B;
   border-radius: 14px;
   padding: 15px;
   color: white;
@@ -76,6 +76,10 @@ header {
     padding-top: 12px;
   }
 
+  .spacement {
+    margin-left: 60px;
+  }
+
   .navbar-nav {
     .nav-item {
       font-weight: bold;
@@ -108,16 +112,18 @@ header {
 
   h1,
   h4 {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 80px;
+    line-height: 40px;
+    font-size: 40px;
     line-height: 40px;
   }
 
   .card {
-    background-color: #FFFC00;
+    background-color: rgb(255, 252, 0);
     border: none;
-    padding: 15px 23px;
-    min-height: 438px;
+    padding: 1px 17px 27px;
+    min-height: 452px;
     border-radius: 30px !important;
 
     .card-title {
@@ -135,35 +141,36 @@ header {
 
   .img_woman {
     position: absolute;
-    bottom: 0;
+    bottom: 31px;
     width: 130px;
     right: 67px;
   }
 
   .img_hand {
     position: absolute;
-    bottom: 40px;
+    bottom: 84px;
     width: 71px;
     right: 177px;
+
   }
 
   .img_cat {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     width: 161px;
     right: 23px;
   }
 
   .img_smile {
     position: absolute;
-    bottom: 60px;
+    bottom: 102px;
     width: 81px;
     left: 23px;
   }
 
   .img_dope {
     position: absolute;
-    bottom: 10px;
+    bottom: 28px;
     width: 161px;
     left: 27px;
   }
@@ -172,17 +179,20 @@ header {
     position: absolute;
     width: 161px;
     left: 40px;
-    bottom: -10px;
+    bottom: 10px;
   }
 
   .faq_title {
     margin-top: 75px;
+    padding: 24px 0px;
+    font-size: 40px;
+
   }
 
   .card-participate {
     background-color: #FFFC00;
     border: none;
-    padding: 15px;
+    padding: 15px 34px;
     min-width: 649px;
     min-height: 130px;
     border-radius: 30px !important;
@@ -227,7 +237,7 @@ header {
 }
 
 footer {
-  background-color: black;
+  background-color: #1B1B1B;
   color: white;
   padding: 60px 0px;
 
@@ -321,6 +331,10 @@ footer {
       border: 0;
       border-top: 1px solid;
       opacity: 0.25;
+    }
+
+    .spacement {
+      margin-left: 0px !important;
     }
 
     .img_woman,

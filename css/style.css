@@ -14,7 +14,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  background: black;
+  background: #1B1B1B;
   color: white;
   text-align: left;
   border-radius: 14px;
@@ -26,14 +26,14 @@ body {
   transform: scale(1.5);
 }
 .accordion__button--active {
-  background: black;
+  background: #1B1B1B;
 }
 
 .accordion__content {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s;
-  background-color: black;
+  background-color: #1B1B1B;
   border-radius: 14px;
   padding: 15px;
   color: white;
@@ -70,6 +70,9 @@ header .text_header {
   font-size: 18px;
   padding-top: 12px;
 }
+header .spacement {
+  margin-left: 60px;
+}
 header .navbar-nav .nav-item {
   font-weight: bold;
 }
@@ -94,15 +97,17 @@ header .navbar-nav li:hover:after {
 }
 .how_does_it_work h1,
 .how_does_it_work h4 {
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 80px;
+  line-height: 40px;
+  font-size: 40px;
   line-height: 40px;
 }
 .how_does_it_work .card {
-  background-color: #FFFC00;
+  background-color: rgb(255, 252, 0);
   border: none;
-  padding: 15px 23px;
-  min-height: 438px;
+  padding: 1px 17px 27px;
+  min-height: 452px;
   border-radius: 30px !important;
 }
 .how_does_it_work .card .card-title {
@@ -117,31 +122,31 @@ header .navbar-nav li:hover:after {
 }
 .how_does_it_work .img_woman {
   position: absolute;
-  bottom: 0;
+  bottom: 31px;
   width: 130px;
   right: 67px;
 }
 .how_does_it_work .img_hand {
   position: absolute;
-  bottom: 40px;
+  bottom: 84px;
   width: 71px;
   right: 177px;
 }
 .how_does_it_work .img_cat {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   width: 161px;
   right: 23px;
 }
 .how_does_it_work .img_smile {
   position: absolute;
-  bottom: 60px;
+  bottom: 102px;
   width: 81px;
   left: 23px;
 }
 .how_does_it_work .img_dope {
   position: absolute;
-  bottom: 10px;
+  bottom: 28px;
   width: 161px;
   left: 27px;
 }
@@ -149,15 +154,17 @@ header .navbar-nav li:hover:after {
   position: absolute;
   width: 161px;
   left: 40px;
-  bottom: -10px;
+  bottom: 10px;
 }
 .how_does_it_work .faq_title {
   margin-top: 75px;
+  padding: 24px 0px;
+  font-size: 40px;
 }
 .how_does_it_work .card-participate {
   background-color: #FFFC00;
   border: none;
-  padding: 15px;
+  padding: 15px 34px;
   min-width: 649px;
   min-height: 130px;
   border-radius: 30px !important;
@@ -195,7 +202,7 @@ header .navbar-nav li:hover:after {
 }
 
 footer {
-  background-color: black;
+  background-color: #1B1B1B;
   color: white;
   padding: 60px 0px;
 }
@@ -274,6 +281,9 @@ footer ul li a:hover {
     border: 0;
     border-top: 1px solid;
     opacity: 0.25;
+  }
+  body .spacement {
+    margin-left: 0px !important;
   }
   body .img_woman,
   body .hand {
