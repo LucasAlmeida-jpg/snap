@@ -123,13 +123,13 @@ header .navbar-nav li:hover:after {
 .how_does_it_work .img_woman {
   position: absolute;
   bottom: 31px;
-  width: 130px;
-  right: 67px;
+  width: 151px;
+  right: 40px;
 }
 .how_does_it_work .img_hand {
   position: absolute;
-  bottom: 84px;
-  width: 71px;
+  bottom: 74px;
+  width: 89px;
   right: 177px;
 }
 .how_does_it_work .img_cat {
@@ -353,7 +353,7 @@ footer ul li a:hover {
     min-width: 100% !important;
     margin: 10px 0px;
     background-color: #FFFC00;
-    min-height: 85px !important;
+    min-height: 124px !important;
     border-radius: 13px !important;
   }
   body .how_does_it_work .card-participate p {
