@@ -378,6 +378,11 @@ footer ul li a:hover {
   }
   body .faq_title {
     margin-top: 20px !important;
+    font-size: 27px !important;
+  }
+  body .university_title,
+  body .highschool_title {
+    font-size: 25px !important;
   }
   body .mt-4,
   body .adjust-mobile {
@@ -389,16 +394,21 @@ footer ul li a:hover {
     padding: 10px;
     position: absolute;
     right: 10px;
-    top: 40px;
+    top: 15px;
   }
   body .navbar > .container {
     display: block;
     text-align: center;
-    background-position: center;
   }
   body .navbar > .container .ms-4 {
     margin-left: 0px !important;
     margin-top: 15px;
+  }
+  body .navbar .container img {
+    position: absolute;
+    left: 2px;
+    top: 16px;
+    width: 111px;
   }
   body .py-5 {
     padding: 0 !important;
@@ -431,6 +441,7 @@ footer ul li a:hover {
   }
   body .how_does_it_work h4 {
     margin-bottom: 19px;
+    font-size: 27px;
   }
   body .how_does_it_work .card-participate {
     min-width: 100% !important;
@@ -448,7 +459,7 @@ footer ul li a:hover {
     border-radius: 13px !important;
   }
   body .how_does_it_work .card-participate-black p {
-    font-size: 14px !important;
+    font-size: 20px !important;
   }
   body header {
     background-color: #FFFC00;
@@ -484,6 +495,9 @@ footer ul li a:hover {
   }
   body .ff-form .ff-title {
     font-size: 21px;
+  }
+  body .adjustment-mobile {
+    margin-top: 70px !important;
   }
   body footer {
     text-align: center;
