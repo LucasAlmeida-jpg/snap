@@ -482,6 +482,9 @@ footer ul li a:hover {
     margin-right: 1px;
     padding: 13px 37px;
   }
+  body .ff-form .ff-title {
+    font-size: 21px;
+  }
   body footer {
     text-align: center;
   }

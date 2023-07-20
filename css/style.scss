@@ -282,13 +282,14 @@ header {
     display: flex;
     align-items: center;
 
-    
+
     p {
       margin-left: 25px;
       font-size: 20px;
       text-align: left;
     }
   }
+
   .university_title,
   .highschool_title {
     font-size: 25px !important;
@@ -580,6 +581,10 @@ footer {
         margin-right: 1px;
         padding: 13px 37px;
       }
+    }
+
+    .ff-form .ff-title {
+      font-size: 21px;
     }
 
     footer {
