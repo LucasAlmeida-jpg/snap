@@ -7,6 +7,71 @@ body {
   scroll-behavior: smooth;
 }
 
+// Estilizacao do Forms
+.modal {
+  .cancel {
+    position: absolute;
+    margin-top: -233px;
+    margin-right: 44px;
+    padding: 13px 37px;
+  }
+
+  .ff-submit {
+    background-color: #FFFC00 !important;
+    color: black !important;
+  }
+
+  .btn-close-white {
+    margin-left: -15px;
+    opacity: 1;
+  }
+
+  .modal-body,
+  .modal-header,
+  .modal-footer {
+    background-color: #1B1B1B;
+
+    input,
+    textarea,
+    .ff-form-check-input {
+      background-color: #2C2C2C !important;
+      color: white !important;
+    }
+  }
+}
+
+#ff-compose, #ff-compose2 {
+  .ff-form {
+    color: white;
+    background-color: #1B1B1B;
+
+    p {
+      color: white !important;
+
+    }
+
+    label {
+      color: white !important;
+    }
+
+    .ff-secfields {
+      span {
+        color: white !important;
+      }
+    }
+
+    .ff-button-bar {
+      img {
+        display: none !important;
+      }
+    }
+
+  }
+}
+
+// Fim da estilizacao do Forms
+
+
 .accordion__button {
   display: block;
   padding: 25px 25px 25px 30px;
@@ -189,6 +254,23 @@ header {
 
   }
 
+  .card-participate-black {
+    background-color: black;
+    border: none;
+    padding: 7px 39px;
+    min-width: 649px;
+    min-height: 85px;
+    border-radius: 24px !important;
+    display: flex;
+    align-items: center !important;
+
+    p {
+      font-size: 20px;
+      color: white;
+      margin-top: 14px;
+    }
+  }
+
   .card-participate {
     background-color: #FFFC00;
     border: none;
@@ -198,6 +280,7 @@ header {
     border-radius: 30px !important;
     display: flex;
     align-items: center;
+
 
     p {
       margin-left: 25px;
@@ -430,11 +513,25 @@ footer {
           font-size: 14px !important;
         }
       }
+
+      .card-participate-black {
+        min-width: 100% !important;
+        margin: 10px 0px;
+        border-radius: 13px !important;
+
+        p {
+          font-size: 14px !important;
+        }
+      }
     }
 
     header {
       background-color: #FFFC00;
       padding-bottom: 25px;
+
+      .title_header {
+        font-size: 46px;
+      }
 
       .peopleHeader {
         width: 100%;
@@ -457,6 +554,15 @@ footer {
       img {
         width: 100%;
         margin: 10px 0px;
+      }
+    }
+
+    .modal {
+      .cancel {
+        position: absolute;
+        margin-top: -304px;
+        margin-right: 1px;
+        padding: 13px 37px;
       }
     }
 

@@ -8,6 +8,55 @@ body {
   scroll-behavior: smooth;
 }
 
+.modal .cancel {
+  position: absolute;
+  margin-top: -233px;
+  margin-right: 44px;
+  padding: 13px 37px;
+}
+.modal .ff-submit {
+  background-color: #FFFC00 !important;
+  color: black !important;
+}
+.modal .btn-close-white {
+  margin-left: -15px;
+  opacity: 1;
+}
+.modal .modal-body,
+.modal .modal-header,
+.modal .modal-footer {
+  background-color: #1B1B1B;
+}
+.modal .modal-body input,
+.modal .modal-body textarea,
+.modal .modal-body .ff-form-check-input,
+.modal .modal-header input,
+.modal .modal-header textarea,
+.modal .modal-header .ff-form-check-input,
+.modal .modal-footer input,
+.modal .modal-footer textarea,
+.modal .modal-footer .ff-form-check-input {
+  background-color: #2C2C2C !important;
+  color: white !important;
+}
+
+#ff-compose .ff-form, #ff-compose2 .ff-form {
+  color: white;
+  background-color: #1B1B1B;
+}
+#ff-compose .ff-form p, #ff-compose2 .ff-form p {
+  color: white !important;
+}
+#ff-compose .ff-form label, #ff-compose2 .ff-form label {
+  color: white !important;
+}
+#ff-compose .ff-form .ff-secfields span, #ff-compose2 .ff-form .ff-secfields span {
+  color: white !important;
+}
+#ff-compose .ff-form .ff-button-bar img, #ff-compose2 .ff-form .ff-button-bar img {
+  display: none !important;
+}
+
 .accordion__button {
   display: block;
   padding: 25px 25px 25px 30px;
@@ -160,6 +209,21 @@ header .navbar-nav li:hover:after {
   margin-top: 75px;
   padding: 24px 0px;
   font-size: 40px;
+}
+.how_does_it_work .card-participate-black {
+  background-color: black;
+  border: none;
+  padding: 7px 39px;
+  min-width: 649px;
+  min-height: 85px;
+  border-radius: 24px !important;
+  display: flex;
+  align-items: center !important;
+}
+.how_does_it_work .card-participate-black p {
+  font-size: 20px;
+  color: white;
+  margin-top: 14px;
 }
 .how_does_it_work .card-participate {
   background-color: #FFFC00;
@@ -359,9 +423,20 @@ footer ul li a:hover {
   body .how_does_it_work .card-participate p {
     font-size: 14px !important;
   }
+  body .how_does_it_work .card-participate-black {
+    min-width: 100% !important;
+    margin: 10px 0px;
+    border-radius: 13px !important;
+  }
+  body .how_does_it_work .card-participate-black p {
+    font-size: 14px !important;
+  }
   body header {
     background-color: #FFFC00;
     padding-bottom: 25px;
+  }
+  body header .title_header {
+    font-size: 46px;
   }
   body header .peopleHeader {
     width: 100%;
@@ -381,6 +456,12 @@ footer ul li a:hover {
   body .guests img {
     width: 100%;
     margin: 10px 0px;
+  }
+  body .modal .cancel {
+    position: absolute;
+    margin-top: -304px;
+    margin-right: 1px;
+    padding: 13px 37px;
   }
   body footer {
     text-align: center;
