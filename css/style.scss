@@ -299,6 +299,14 @@ header {
   background-color: #FFFC00;
   padding: 80px 0px 120px 0px;
 
+  span {
+    margin-left: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 1px 8px 4px;
+  }
+
   img {
     border-radius: 18px;
     opacity: .9;
@@ -315,11 +323,14 @@ header {
       margin-left: 16px;
       font-size: 14.3px;
       font-weight: 200;
+      margin-top: 7px;
     }
 
     h3 {
       color: white;
       margin-left: 16px;
+      margin-bottom: 6px;
+      margin-top: -21px;
     }
   }
 }
