@@ -116,6 +116,11 @@ body {
   }
 }
 
+strong{
+  &:hover {
+    border-bottom: 1px solid black;
+  }
+}
 header {
   background-color: #FFFC00;
   padding-bottom: 120px;
