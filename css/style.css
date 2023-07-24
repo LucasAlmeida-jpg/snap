@@ -243,9 +243,9 @@ header .navbar-nav li:hover:after {
 .how_does_it_work .card-participate {
   background-color: #FFFC00;
   border: none;
-  padding: 15px 36px 7px;
+  padding: 15px 36px 10px;
   min-width: 649px;
-  min-height: 111px;
+  min-height: 121px;
   border-radius: 24px !important;
   display: flex !important;
   align-items: center;
