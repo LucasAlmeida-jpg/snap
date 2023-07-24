@@ -94,6 +94,12 @@ body {
   margin: -45px 0 25px;
   font-weight: 500;
 }
+.accordion__content .link_redirected a {
+  color: #FFFC00;
+}
+.accordion__content .link_redirected a:hover {
+  opacity: 0.6;
+}
 
 .questionnaire h1 {
   color: black;
