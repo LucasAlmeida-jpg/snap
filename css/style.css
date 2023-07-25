@@ -120,7 +120,7 @@ body {
 }
 .link_university:hover {
   color: black;
-  opacity: 0.6;
+  border-bottom: 1px solid black;
 }
 
 .accordion__content {
