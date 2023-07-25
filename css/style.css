@@ -14,7 +14,7 @@ body {
 .emogi_class img {
   position: absolute;
   bottom: 20px;
-  width: 21%;
+  width: 311px;
 }
 .emogi_class .first_girl {
   left: 636px;
@@ -544,24 +544,24 @@ footer ul li a:hover {
   body .emogi_class img {
     position: relative;
     bottom: 20px;
-    width: 40%;
+    width: 162px;
   }
   body .emogi_class .first_girl {
     z-index: 1;
-    left: 0px;
+    left: -40px;
   }
   body .emogi_class .second_girl {
     bottom: 30px;
-    left: -60px;
+    left: -110px;
   }
   body .emogi_class .third_girl {
     bottom: 50px;
-    left: -135px;
+    left: -195px;
   }
   body .emogi_class .fourth_girl {
     z-index: 1;
     bottom: 30px;
-    left: -217px;
+    left: -277px;
   }
   body .emogi_class .fifth_girl {
     display: none;
