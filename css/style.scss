@@ -7,6 +7,41 @@ body {
   scroll-behavior: smooth;
 }
 
+.emogi_class {
+  right: -12px;
+
+  img {
+    position: absolute;
+    bottom: 20px;
+    width: 21%;
+  }
+
+  .first_girl {
+    left: 636px;
+    z-index: 1;
+  }
+
+  .second_girl {
+    left: 790px;
+    bottom: 70px;
+  }
+
+  .third_girl {
+    left: 930px;
+    bottom: 50px;
+  }
+
+  .fourth_girl {
+    left: 1047px;
+    z-index: 1;
+    bottom: -1px;
+  }
+  .fifth_girl {
+    top: 50px;
+    right: 30px;
+  }  
+}
+
 // Estilizacao do Forms
 .modal {
   .btn-close-white {
@@ -391,6 +426,8 @@ footer {
   border: none;
   border-radius: 40px;
   min-width: 187px;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -518,6 +555,7 @@ footer {
 
     .sign_up {
       margin: 0px 0px 10px;
+      margin-bottom: 36px
     }
 
     .sign_up_yellow {
@@ -608,6 +646,39 @@ footer {
         width: 100%;
         margin: 10px 0px;
       }
+    }
+
+    .emogi_class {
+      position: relative;
+      img {
+        position: relative;
+        bottom: 20px;
+        width: 40%;
+      }
+    
+      .first_girl {
+        z-index: 1;
+        left: 0px;
+      }
+    
+      .second_girl {
+        bottom: 30px;
+        left: -60px;
+      }
+    
+      .third_girl {
+        bottom: 50px;
+        left: -135px;
+      }
+    
+      .fourth_girl {
+        z-index: 1;
+        bottom: 30px;
+        left: -217px;
+      }
+      .fifth_girl {
+        display: none;
+      }  
     }
 
     .modal {

@@ -8,6 +8,36 @@ body {
   scroll-behavior: smooth;
 }
 
+.emogi_class {
+  right: -12px;
+}
+.emogi_class img {
+  position: absolute;
+  bottom: 20px;
+  width: 21%;
+}
+.emogi_class .first_girl {
+  left: 636px;
+  z-index: 1;
+}
+.emogi_class .second_girl {
+  left: 790px;
+  bottom: 70px;
+}
+.emogi_class .third_girl {
+  left: 930px;
+  bottom: 50px;
+}
+.emogi_class .fourth_girl {
+  left: 1047px;
+  z-index: 1;
+  bottom: -1px;
+}
+.emogi_class .fifth_girl {
+  top: 50px;
+  right: 30px;
+}
+
 .modal .btn-close-white {
   margin-right: 15px !important;
   opacity: 1;
@@ -327,6 +357,8 @@ footer ul li a:hover {
   border: none;
   border-radius: 40px;
   min-width: 187px;
+  position: relative;
+  z-index: 1;
 }
 
 .sign_up_yellow {
@@ -433,6 +465,7 @@ footer ul li a:hover {
   }
   body .sign_up {
     margin: 0px 0px 10px;
+    margin-bottom: 36px;
   }
   body .sign_up_yellow {
     margin: 10px 0px;
@@ -504,6 +537,34 @@ footer ul li a:hover {
   body .guests img {
     width: 100%;
     margin: 10px 0px;
+  }
+  body .emogi_class {
+    position: relative;
+  }
+  body .emogi_class img {
+    position: relative;
+    bottom: 20px;
+    width: 40%;
+  }
+  body .emogi_class .first_girl {
+    z-index: 1;
+    left: 0px;
+  }
+  body .emogi_class .second_girl {
+    bottom: 30px;
+    left: -60px;
+  }
+  body .emogi_class .third_girl {
+    bottom: 50px;
+    left: -135px;
+  }
+  body .emogi_class .fourth_girl {
+    z-index: 1;
+    bottom: 30px;
+    left: -217px;
+  }
+  body .emogi_class .fifth_girl {
+    display: none;
   }
   body .modal .cancel {
     position: absolute;
