@@ -116,6 +116,7 @@ body {
 .link_university {
   color: black;
   font-weight: bold;
+  text-decoration: none;
 }
 .link_university:hover {
   color: black;
