@@ -96,6 +96,16 @@ body {
   }
 }
 
+.link_university {
+  color: black;
+  font-weight: bold;
+
+  &:hover {
+    color: black;
+    opacity: 0.6;
+  }
+}
+
 .accordion__content {
   overflow: hidden;
   max-height: 0;
