@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 400;
+  src: url('/fonts/GraphikRegular.otf') format('opentype');
+}
+
 body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Graphik' !important;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -34,8 +40,9 @@ body {
   // }
 
   .fifth_girl {
-    top: 0;
-    margin-left: 1000px;
+    top: 47px;
+    margin-left: 1050px;
+    width: 289px;
   }
 }
 
@@ -58,7 +65,7 @@ body {
     color: black !important;
   }
 
-  
+
 
   .modal-body,
   .modal-header,
@@ -73,9 +80,26 @@ body {
     }
   }
 }
-.user_snap{
-  width: 30%;
+
+.user_snap {
   margin-left: 40px;
+  position: absolute;
+  bottom: 1000px;
+  z-index: 1 !important;
+  color: white;
+  right: 20px;
+  img{
+    width: 47%;
+  }
+}
+
+
+.user_snap_2 {
+  width: 18%;
+  margin-left: 40px;
+  position: absolute;
+  bottom: 849px;
+  z-index: 1 !important;
 }
 
 .rest-form-control::placeholder {
@@ -84,8 +108,8 @@ body {
 
 #ff-compose,
 #ff-compose2 {
-  
-  
+
+
   .ff-form {
     color: white;
     background-color: #1B1B1B;
@@ -95,7 +119,7 @@ body {
 
     }
 
-    
+
 
     label {
       color: white !important;
@@ -203,9 +227,9 @@ header {
   }
 
   .peopleHeader {
-    width: 530px;
-    right: 20%;
-    bottom: 100px;
+    width: 500px;
+    left: 50%;
+    top: 276px;
   }
 
   .text_header {
@@ -285,7 +309,7 @@ header {
 
   .img_hand {
     position: absolute;
-    bottom: 74px;
+    bottom: 41px;
     width: 89px;
     right: 177px;
 
@@ -375,7 +399,7 @@ header {
     background-color: black;
     color: white;
     border-radius: 40px;
-    padding: 1px 8px 4px;
+    padding: 4px 9px;
   }
 
   img {
@@ -634,13 +658,13 @@ footer {
       }
 
       .peopleHeader {
-        width: 100%;
+        top: 0;
         object-fit: cover;
         height: auto !important;
         border-radius: 20px;
         position: relative;
-        right: -13px !important;
-        margin-bottom: -27px !important;
+        width: 270px !important;
+        left: 50px;
       }
     }
 

@@ -1,9 +1,14 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Graphik";
+  font-weight: 400;
+  src: url("/fonts/GraphikRegular.otf") format("opentype");
+}
 body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Graphik" !important;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -12,8 +17,9 @@ body {
   position: absolute;
 }
 .emogi_class .fifth_girl {
-  top: 0;
-  margin-left: 1000px;
+  top: 47px;
+  margin-left: 1050px;
+  width: 289px;
 }
 
 .modal .btn-close-white {
@@ -49,8 +55,23 @@ body {
 }
 
 .user_snap {
-  width: 30%;
   margin-left: 40px;
+  position: absolute;
+  bottom: 1000px;
+  z-index: 1 !important;
+  color: white;
+  right: 20px;
+}
+.user_snap img {
+  width: 47%;
+}
+
+.user_snap_2 {
+  width: 18%;
+  margin-left: 40px;
+  position: absolute;
+  bottom: 849px;
+  z-index: 1 !important;
 }
 
 .rest-form-control::placeholder {
@@ -149,9 +170,9 @@ header .title_header {
   margin-top: 12px;
 }
 header .peopleHeader {
-  width: 530px;
-  right: 20%;
-  bottom: 100px;
+  width: 500px;
+  left: 50%;
+  top: 276px;
 }
 header .text_header {
   font-size: 18px;
@@ -215,7 +236,7 @@ header .navbar-nav li:hover:after {
 }
 .how_does_it_work .img_hand {
   position: absolute;
-  bottom: 74px;
+  bottom: 41px;
   width: 89px;
   right: 177px;
 }
@@ -292,7 +313,7 @@ header .navbar-nav li:hover:after {
   background-color: black;
   color: white;
   border-radius: 40px;
-  padding: 1px 8px 4px;
+  padding: 4px 9px;
 }
 .guests img {
   border-radius: 18px;
@@ -503,13 +524,13 @@ footer ul li a:hover {
     font-size: 46px;
   }
   body header .peopleHeader {
-    width: 100%;
+    top: 0;
     object-fit: cover;
     height: auto !important;
     border-radius: 20px;
     position: relative;
-    right: -13px !important;
-    margin-bottom: -27px !important;
+    width: 270px !important;
+    left: 50px;
   }
   body br {
     display: none;
