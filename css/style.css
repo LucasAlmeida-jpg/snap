@@ -8,34 +8,12 @@ body {
   scroll-behavior: smooth;
 }
 
-.emogi_class {
-  right: -12px;
-}
 .emogi_class img {
   position: absolute;
-  bottom: 20px;
-  width: 311px;
-}
-.emogi_class .first_girl {
-  left: 636px;
-  z-index: 1;
-}
-.emogi_class .second_girl {
-  left: 790px;
-  bottom: 70px;
-}
-.emogi_class .third_girl {
-  left: 930px;
-  bottom: 50px;
-}
-.emogi_class .fourth_girl {
-  left: 1047px;
-  z-index: 1;
-  bottom: -1px;
 }
 .emogi_class .fifth_girl {
-  top: 50px;
-  right: 30px;
+  top: 0;
+  margin-left: 1000px;
 }
 
 .modal .btn-close-white {
@@ -67,6 +45,15 @@ body {
 .modal .modal-footer textarea,
 .modal .modal-footer .ff-form-check-input {
   background-color: #2C2C2C !important;
+  color: white !important;
+}
+
+.user_snap {
+  width: 30%;
+  margin-left: 40px;
+}
+
+.rest-form-control::placeholder {
   color: white !important;
 }
 
@@ -162,13 +149,9 @@ header .title_header {
   margin-top: 12px;
 }
 header .peopleHeader {
-  width: 53%;
-  object-fit: cover;
-  height: auto !important;
-  position: absolute;
-  right: 0;
-  filter: contrast(120%);
-  bottom: 0px;
+  width: 530px;
+  right: 20%;
+  bottom: 100px;
 }
 header .text_header {
   font-size: 18px;
@@ -358,7 +341,6 @@ footer ul li a:hover {
   border: none;
   border-radius: 40px;
   min-width: 187px;
-  position: relative;
   z-index: 1;
 }
 

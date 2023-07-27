@@ -8,38 +8,35 @@ body {
 }
 
 .emogi_class {
-  right: -12px;
-
   img {
     position: absolute;
-    bottom: 20px;
-    width: 311px;
   }
 
-  .first_girl {
-    left: 636px;
-    z-index: 1;
-  }
+  // .first_girl {
+  //   right: 0px;
+  //   bottom: ;
+  // }
 
-  .second_girl {
-    left: 790px;
-    bottom: 70px;
-  }
+  // .second_girl {
+  //   left: 790px;
+  //   bottom: 70px;
+  // }
 
-  .third_girl {
-    left: 930px;
-    bottom: 50px;
-  }
+  // .third_girl {
+  //   left: 930px;
+  //   bottom: 50px;
+  // }
 
-  .fourth_girl {
-    left: 1047px;
-    z-index: 1;
-    bottom: -1px;
-  }
+  // .fourth_girl {
+  //   left: 1047px;
+  //   z-index: 1;
+  //   bottom: -1px;
+  // }
+
   .fifth_girl {
-    top: 50px;
-    right: 30px;
-  }  
+    top: 0;
+    margin-left: 1000px;
+  }
 }
 
 // Estilizacao do Forms
@@ -61,6 +58,8 @@ body {
     color: black !important;
   }
 
+  
+
   .modal-body,
   .modal-header,
   .modal-footer {
@@ -74,9 +73,19 @@ body {
     }
   }
 }
+.user_snap{
+  width: 30%;
+  margin-left: 40px;
+}
+
+.rest-form-control::placeholder {
+  color: white !important;
+}
 
 #ff-compose,
 #ff-compose2 {
+  
+  
   .ff-form {
     color: white;
     background-color: #1B1B1B;
@@ -85,6 +94,8 @@ body {
       color: white !important;
 
     }
+
+    
 
     label {
       color: white !important;
@@ -164,6 +175,8 @@ body {
   }
 }
 
+
+
 .questionnaire {
   h1 {
     color: black;
@@ -190,13 +203,9 @@ header {
   }
 
   .peopleHeader {
-    width: 53%;
-    object-fit: cover;
-    height: auto !important;
-    position: absolute;
-    right: 0;
-    filter: contrast(120%);
-    bottom: 0px;
+    width: 530px;
+    right: 20%;
+    bottom: 100px;
   }
 
   .text_header {
@@ -427,7 +436,6 @@ footer {
   border: none;
   border-radius: 40px;
   min-width: 187px;
-  position: relative;
   z-index: 1;
 }
 
@@ -651,35 +659,37 @@ footer {
 
     .emogi_class {
       position: relative;
+
       img {
         position: relative;
         bottom: 20px;
         width: 162px;
       }
-    
+
       .first_girl {
         z-index: 1;
         left: -40px;
       }
-    
+
       .second_girl {
         bottom: 30px;
         left: -110px;
       }
-    
+
       .third_girl {
         bottom: 50px;
         left: -195px;
       }
-    
+
       .fourth_girl {
         z-index: 1;
         bottom: 30px;
         left: -297px;
       }
+
       .fifth_girl {
         display: none;
-      }  
+      }
     }
 
     .modal {
