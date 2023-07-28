@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'Graphik';
-  font-weight: 400;
-  src: url('/fonts/GraphikRegular.otf') format('opentype');
+  font-family: "graphik";
+  src: url("../fonts/graphikregular-webfont.woff2") format("woff2"),
+  url("../fonts/graphikregular-webfont.woff") format("woff");
 }
 
 body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Graphik' !important;
+  font-family: 'graphik', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -49,7 +49,7 @@ body {
 // Estilizacao do Forms
 .modal {
   .btn-close-white {
-    margin-right: 15px !important;
+    margin-right: 15px ;
     opacity: 1;
   }
 
