@@ -46,6 +46,12 @@ body {
   }
 }
 
+.snapxcreator{
+  .logo_c img {
+    width: 39px;
+  }
+}
+
 // Estilizacao do Forms
 .modal {
   .btn-close-white {
@@ -227,10 +233,11 @@ header {
     margin-top: 12px;
   }
 
-  .peopleHeader {
-    width: 500px;
-    left: 50%;
-    top: 276px;
+  .peopleHeader img{
+    position: absolute;
+    top: 40px;
+    width: 700px;
+
   }
 
   .text_header {
@@ -348,6 +355,7 @@ header {
     margin-top: 75px;
     padding: 24px 0px;
     font-size: 40px;
+    font-weight: 400
 
   }
 
@@ -588,7 +596,8 @@ footer {
 
     .sign_up {
       margin: 0px 0px 10px;
-      margin-bottom: 36px
+      margin-bottom: 36px;
+      position: relative;
     }
 
     .sign_up_yellow {
@@ -651,20 +660,16 @@ footer {
 
     header {
       background-color: #FFFC00;
-      padding-bottom: 25px;
+      padding: 0;
 
       .title_header {
         font-size: 46px;
       }
 
-      .peopleHeader {
-        top: 0;
-        object-fit: cover;
-        height: auto !important;
-        border-radius: 20px;
+      .peopleHeader img {
         position: relative;
-        width: 270px !important;
-        left: 50px;
+        top: -101px;
+        width: 350px;
       }
     }
 
@@ -680,42 +685,6 @@ footer {
         margin: 10px 0px;
       }
     }
-
-    .emogi_class {
-      position: relative;
-
-      img {
-        position: relative;
-        bottom: 20px;
-        width: 162px;
-      }
-
-      .first_girl {
-        z-index: 1;
-        left: -40px;
-      }
-
-      .second_girl {
-        bottom: 30px;
-        left: -110px;
-      }
-
-      .third_girl {
-        bottom: 50px;
-        left: -195px;
-      }
-
-      .fourth_girl {
-        z-index: 1;
-        bottom: 30px;
-        left: -297px;
-      }
-
-      .fifth_girl {
-        display: none;
-      }
-    }
-
     .modal {
       .cancel {
         position: absolute;
