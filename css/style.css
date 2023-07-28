@@ -356,7 +356,7 @@ footer ul li a:hover {
 .sign_up {
   background-color: #000000;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   padding: 8px 15px;
   border: none;
   border-radius: 40px;
@@ -367,7 +367,7 @@ footer ul li a:hover {
 .sign_up_yellow {
   background-color: #FFFC00;
   color: black;
-  font-weight: 500;
+  font-weight: 600;
   padding: 13px 19px;
   border: none;
   border-radius: 40px;
