@@ -12,15 +12,6 @@ body {
   scroll-behavior: smooth;
 }
 
-.emogi_class img {
-  position: absolute;
-}
-.emogi_class .fifth_girl {
-  top: 47px;
-  margin-left: 1050px;
-  width: 289px;
-}
-
 .snapxcreator .logo_c img {
   width: 38px;
 }
@@ -36,8 +27,8 @@ body {
   padding: 13px 37px;
 }
 .modal .ff-submit {
-  background-color: #FFFC00 !important;
-  color: black !important;
+  background-color: #FFFC00;
+  color: black;
 }
 .modal .modal-body,
 .modal .modal-header,
@@ -54,14 +45,14 @@ body {
 .modal .modal-footer textarea,
 .modal .modal-footer .ff-form-check-input {
   background-color: #2C2C2C !important;
-  color: white !important;
+  color: white;
 }
 
 .user_snap {
   margin-left: 40px;
   position: absolute;
   bottom: 1000px;
-  z-index: 1 !important;
+  z-index: 1;
   color: white;
   right: 20px;
 }
@@ -74,7 +65,7 @@ body {
   margin-left: 40px;
   position: absolute;
   bottom: 849px;
-  z-index: 1 !important;
+  z-index: 1;
 }
 
 .rest-form-control::placeholder {
@@ -88,19 +79,19 @@ body {
 }
 #ff-compose .ff-form p,
 #ff-compose2 .ff-form p {
-  color: white !important;
+  color: white;
 }
 #ff-compose .ff-form label,
 #ff-compose2 .ff-form label {
-  color: white !important;
+  color: white;
 }
 #ff-compose .ff-form .ff-secfields span,
 #ff-compose2 .ff-form .ff-secfields span {
-  color: white !important;
+  color: white;
 }
 #ff-compose .ff-form .ff-button-bar img,
 #ff-compose2 .ff-form .ff-button-bar img {
-  display: none !important;
+  display: none;
 }
 
 .accordion__button {
@@ -190,6 +181,8 @@ header .navbar-nav .nav-item {
 header .navbar-nav .nav-item .nav-link {
   margin-right: 6px;
   font-size: 14px;
+  z-index: 1 !important;
+  position: relative;
 }
 header .navbar-nav li:after {
   display: block;
@@ -219,7 +212,7 @@ header .navbar-nav li:hover:after {
   border: none;
   padding: 1px 17px 27px;
   min-height: 452px;
-  border-radius: 30px !important;
+  border-radius: 30px;
 }
 .how_does_it_work .card .card-title {
   margin-top: 23px;
@@ -279,9 +272,9 @@ header .navbar-nav li:hover:after {
   padding: 7px 39px;
   min-width: 649px;
   min-height: 85px;
-  border-radius: 24px !important;
+  border-radius: 24px;
   display: flex;
-  align-items: center !important;
+  align-items: center;
 }
 .how_does_it_work .card-participate-black p {
   font-size: 20px;
@@ -294,8 +287,8 @@ header .navbar-nav li:hover:after {
   padding: 15px 36px 10px;
   min-width: 649px;
   min-height: 130px;
-  border-radius: 24px !important;
-  display: flex !important;
+  border-radius: 24px;
+  display: flex;
   align-items: center;
 }
 .how_does_it_work .card-participate p {
@@ -305,7 +298,7 @@ header .navbar-nav li:hover:after {
 }
 .how_does_it_work .university_title,
 .how_does_it_work .highschool_title {
-  font-size: 25px !important;
+  font-size: 25px;
 }
 
 .guests {
@@ -425,27 +418,27 @@ footer ul li a:hover {
     opacity: 0.25;
   }
   body .spacement {
-    margin-left: 0px !important;
+    margin-left: 0px;
   }
   body .img_woman,
   body .hand {
-    bottom: 28px !important;
+    bottom: 28px;
   }
   body .img_hand {
-    bottom: 86px !important;
-    right: 201px !important;
+    bottom: 86px;
+    right: 201px;
   }
   body .faq_title {
-    margin-top: 20px !important;
-    font-size: 27px !important;
+    margin-top: 20px;
+    font-size: 27px;
   }
   body .university_title,
   body .highschool_title {
-    font-size: 25px !important;
+    font-size: 25px;
   }
   body .mt-4,
   body .adjust-mobile {
-    margin: 0 !important;
+    margin: 0;
   }
   body .navbar-toggler {
     border-radius: 50%;
@@ -459,7 +452,7 @@ footer ul li a:hover {
     text-align: center;
   }
   body .navbar > .container .ms-4 {
-    margin-left: 0px !important;
+    margin-left: 0px;
     margin-top: 15px;
   }
   body .navbar .container img {
@@ -469,10 +462,10 @@ footer ul li a:hover {
     width: 111px;
   }
   body .py-5 {
-    padding: 0 !important;
+    padding: 0;
   }
   body .sign_up {
-    margin: 0px 0px 10px;
+    margin: 0px 0px 10px !important;
     margin-bottom: 36px;
     position: relative;
   }
@@ -480,7 +473,7 @@ footer ul li a:hover {
     margin: 10px 0px;
   }
   body .btn_header_sign_up {
-    text-align: center !important;
+    text-align: center;
     padding: 20px 0px;
   }
   body .btn_header_sign_up .sign_up {
@@ -488,7 +481,7 @@ footer ul li a:hover {
     min-width: 100px;
   }
   body .btn-yellow {
-    text-align: center !important;
+    text-align: center;
   }
   body .card {
     margin: 10px 0px;
@@ -497,29 +490,29 @@ footer ul li a:hover {
     margin: 20px 0px;
   }
   body .how_does_it_work h1 {
-    margin: 0px !important;
+    margin: 0px;
   }
   body .how_does_it_work h4 {
     margin-bottom: 19px;
     font-size: 27px;
   }
   body .how_does_it_work .card-participate {
-    min-width: 100% !important;
+    min-width: 100%;
     margin: 10px 0px;
     background-color: #FFFC00;
-    min-height: 124px !important;
-    border-radius: 13px !important;
+    min-height: 124px;
+    border-radius: 13px;
   }
   body .how_does_it_work .card-participate p {
-    font-size: 14px !important;
+    font-size: 14px;
   }
   body .how_does_it_work .card-participate-black {
-    min-width: 100% !important;
+    min-width: 100%;
     margin: 10px 0px;
-    border-radius: 13px !important;
+    border-radius: 13px;
   }
   body .how_does_it_work .card-participate-black p {
-    font-size: 20px !important;
+    font-size: 20px;
   }
   body header {
     background-color: #FFFC00;
@@ -530,7 +523,7 @@ footer ul li a:hover {
   }
   body header .peopleHeader img {
     position: relative;
-    top: -101px;
+    top: -81px;
     width: 350px;
   }
   body br {
@@ -553,7 +546,7 @@ footer ul li a:hover {
     font-size: 21px;
   }
   body .adjustment-mobile {
-    margin-top: 70px !important;
+    margin-top: 70px;
   }
   body footer {
     text-align: center;
