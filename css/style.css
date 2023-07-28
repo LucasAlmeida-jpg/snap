@@ -524,7 +524,7 @@ footer ul li a:hover {
   body header .peopleHeader img {
     position: relative;
     top: -81px;
-    width: 350px;
+    width: 100%;
   }
   body br {
     display: none;
