@@ -315,7 +315,7 @@ header .navbar-nav li:hover:after {
 .guests img {
   border-radius: 18px;
   opacity: 0.9;
-  filter: brightness(70%);
+  object-fit: cover;
 }
 .guests .info-tutor {
   position: absolute;
