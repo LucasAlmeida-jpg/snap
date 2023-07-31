@@ -45,7 +45,7 @@ body {
 .modal .modal-footer textarea,
 .modal .modal-footer .ff-form-check-input {
   background-color: #2C2C2C !important;
-  color: white;
+  color: white !important;
 }
 
 .user_snap {
