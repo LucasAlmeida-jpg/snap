@@ -60,6 +60,11 @@ body {
   width: 47%;
 }
 
+.university a {
+  color: black;
+  text-decoration: none;
+}
+
 .user_snap_2 {
   width: 18%;
   margin-left: 40px;
@@ -361,6 +366,15 @@ footer ul li a:hover {
   min-width: 187px;
   z-index: 1;
 }
+.sign_up a {
+  color: white;
+  text-decoration: none;
+}
+
+.high a {
+  color: black;
+  text-decoration: none;
+}
 
 .sign_up_yellow {
   background-color: #FFFC00;
@@ -371,6 +385,10 @@ footer ul li a:hover {
   border-radius: 40px;
   min-width: 187px;
   margin: 0px 10px 0px 0px;
+}
+.sign_up_yellow a {
+  color: black;
+  text-decoration: none;
 }
 
 @keyframes slideInRight {
