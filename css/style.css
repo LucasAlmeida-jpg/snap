@@ -296,6 +296,10 @@ header .navbar-nav li:hover:after {
   display: flex;
   align-items: center;
 }
+.how_does_it_work .card-participate a {
+  text-decoration: none;
+  color: black;
+}
 .how_does_it_work .card-participate p {
   margin-left: 23px;
   font-size: 20px;
