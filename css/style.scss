@@ -592,10 +592,18 @@ footer {
       margin: 0px 0px 10px !important;
       margin-bottom: 36px;
       position: relative;
+      a {
+        color: white;
+        text-decoration: none;
+      }
     }
 
     .sign_up_yellow {
       margin: 10px 0px;
+      a {
+        color: black;
+        text-decoration: none;
+      }
     }
 
     .btn_header_sign_up {
