@@ -71,7 +71,7 @@ body {
 
 .university{
   a {
-    color: black;
+    color: black !important;
     text-decoration: none;
   }
 }
@@ -172,7 +172,7 @@ body {
 
   .link_redirected {
     a {
-      color: #FFFC00;
+      color: #FFFC00 !important;
 
       &:hover {
         opacity: 0.6;
@@ -429,13 +429,13 @@ footer {
     li {
       a {
         text-decoration: none;
-        color: white;
+        color: white !important;
         font-weight: 600;
         transition: opacity 0.3s ease;
 
         &:hover {
           opacity: 0.8;
-          color: white;
+          color: white !important;
         }
       }
     }
@@ -452,14 +452,14 @@ footer {
   min-width: 187px;
   z-index: 1;
   a {
-    color: white;
+    color: white !important;
     text-decoration: none;
   }
 }
 
 .high{
   a {
-    color: black;
+    color: black !important;
     text-decoration: none;
   }
 }
@@ -593,7 +593,7 @@ footer {
       margin-bottom: 36px;
       position: relative;
       a {
-        color: white;
+        color: white !important;
         text-decoration: none;
       }
     }
@@ -601,7 +601,7 @@ footer {
     .sign_up_yellow {
       margin: 10px 0px;
       a {
-        color: black;
+        color: black !important;
         text-decoration: none;
       }
     }
