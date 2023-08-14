@@ -16,6 +16,13 @@ body {
   width: 38px;
 }
 
+.snapxcreator .img_ghost img {
+  width: 71px !important;
+}
+.snapxcreator .mx-1 {
+  margin-left: -10px !important;
+}
+
 .modal .btn-close-white {
   margin-right: 15px;
   opacity: 1;
