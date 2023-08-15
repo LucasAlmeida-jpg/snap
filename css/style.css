@@ -588,6 +588,9 @@ footer ul li a:hover {
   body footer {
     text-align: center;
   }
+  body footer ul {
+    padding-left: 2px !important;
+  }
   body footer .footer-img {
     align-items: center !important;
   }
