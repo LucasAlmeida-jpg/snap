@@ -585,6 +585,9 @@ footer ul li a:hover {
   body .adjustment-mobile {
     margin-top: 70px;
   }
+  body .snapxcreator .img_ghost img {
+    width: 71px !important;
+  }
   body footer {
     text-align: center;
   }
