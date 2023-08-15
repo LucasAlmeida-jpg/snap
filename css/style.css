@@ -588,6 +588,9 @@ footer ul li a:hover {
   body footer {
     text-align: center;
   }
+  body footer .footer-img {
+    align-items: center !important;
+  }
   body footer ul li a {
     line-height: 44px;
   }
