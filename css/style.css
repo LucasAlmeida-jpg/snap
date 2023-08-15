@@ -593,6 +593,7 @@ footer ul li a:hover {
   }
   body footer .footer-img {
     align-items: center !important;
+    margin-top: 19px;
   }
   body footer ul li a {
     line-height: 44px;
