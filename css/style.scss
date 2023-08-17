@@ -739,6 +739,9 @@ footer {
       .footer-img {
         align-items: center !important;
         margin-top: 19px;
+        justify-content: center !important;
+        flex-direction: column;
+        display: inline-flex;
       }
 
       ul {
