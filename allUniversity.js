@@ -25,8 +25,8 @@ accordionButtons.forEach(button => {
   });
 });
 
-//funcao para carregar o modal assim que abrir a pagina
-document.addEventListener("DOMContentLoaded", function() {
-  const modal = new bootstrap.Modal(document.getElementById('exampleModal1'));
-  modal.show();
-});
+// //funcao para carregar o modal assim que abrir a pagina
+// document.addEventListener("DOMContentLoaded", function() {
+//   const modal = new bootstrap.Modal(document.getElementById('exampleModal1'));
+//   modal.show();
+// });
