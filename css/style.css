@@ -70,14 +70,16 @@ body {
 
 #ff-compose .ff-form,
 #ff-compose2 .ff-form {
-  color: white;
-  background-color: #1B1B1B; }
-  #ff-compose .ff-form p,
-  #ff-compose2 .ff-form p {
-    color: white; }
-  #ff-compose .ff-form label,
+  color: white !important;
+  background-color: #1B1B1B !important; }
+  #ff-compose .ff-form h3,
+  #ff-compose2 .ff-form h3 {
+    font-size: 25px !important; }
+  #ff-compose .ff-form h3, #ff-compose .ff-form p, #ff-compose .ff-form label,
+  #ff-compose2 .ff-form h3,
+  #ff-compose2 .ff-form p,
   #ff-compose2 .ff-form label {
-    color: white; }
+    color: white !important; }
   #ff-compose .ff-form .ff-secfields span,
   #ff-compose2 .ff-form .ff-secfields span {
     color: white; }

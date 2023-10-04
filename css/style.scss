@@ -105,18 +105,16 @@ body {
 
 
   .ff-form {
-    color: white;
-    background-color: #1B1B1B;
+    color: white !important;
+    background-color: #1B1B1B !important;
 
-    p {
-      color: white;
-
+    h3{
+      font-size: 25px !important;
     }
+    
+    h3, p, label {
+      color: white !important;
 
-
-
-    label {
-      color: white;
     }
 
     .ff-secfields {
